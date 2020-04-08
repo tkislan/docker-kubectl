@@ -13,7 +13,7 @@ RUN curl -LO https://github.com/fluxcd/flux/releases/download/1.18.0/fluxctl_lin
     mv fluxctl_linux_amd64 /usr/local/bin/fluxctl && \
     fluxctl version
 
-RUN curl -LO https://get.helm.sh/helm-v3.1.1-linux-amd64.tar.gz && \
-    mv linux-amd64/helm /usr/local/bin/helm && \
-    rm -rv linux-amd64 && \
-    helm version
+# RUN curl -LO https://get.helm.sh/helm-v3.1.1-linux-amd64.tar.gz && \
+#     mv linux-amd64/helm /usr/local/bin/helm && \
+#     rm -rv linux-amd64 && \
+#     helm version
